@@ -3,13 +3,13 @@
 idad_apos_2019 <- function(x, sexo, t, profissao){ # sexo 1 == Feminino
   if(sexo == 1){
     if(profissao == "PROFESSORA"){
-      return(50)  
+      return(52)  
     }else{  
       return(57)
     }
   }else{
     if(profissao == "PROFESSOR"){
-      return(55)
+      return(57)
     }else{
       return(62)
     }
